@@ -11,9 +11,9 @@
 
 @interface SZJsonParser : NSObject {
     NSString    *mSource;
-    NSUInteger  mLength;
+    int  mLength;
     
-    NSUInteger  mPos;
+    int  mPos;
 }
 
 - (id)initWithSource:(NSString *)source;

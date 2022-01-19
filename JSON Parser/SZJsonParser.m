@@ -80,7 +80,7 @@
     return [mSource characterAtIndex:mPos++];
 }
 
-- (NSString *)getNextString:(NSUInteger)length
+- (NSString *)getNextString:(int)length
 {
     if (mPos + length > mLength) {
         @throw [NSException exceptionWithName:@"JSON Parsing Error"
